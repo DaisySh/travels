@@ -49,25 +49,18 @@ img + h5 {
   font-size: 1.5rem;
 }
 
-/* aspetto dei link */
-
-.nav-link:link,
-.nav-link:hover,
-.card-title > a:link {
-  color: black;
-}
+/* aspetto dei link (a, link, visited, focus, hover, active) */
 
 /* a è figlio diretto di .card-title */
-
-.card-title > a{
+.nav-link,
+.card-title > a {
   color: black;
   text-decoration: none;
 }
 
-
-.card-title > a:hover {
+.nav-link:link,
+.card-title > a:link {
   color: black;
-  border-bottom: 2px solid black;
 }
 
 .nav-link:visited,
@@ -79,6 +72,12 @@ img + h5 {
 .card-title > a:focus{
   outline: 1px solid grey;
   color: black;
+}
+
+
+.card-title > a:hover {
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 .nav-link:active,

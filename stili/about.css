@@ -20,17 +20,35 @@ article {
   width: 80%;
 }
 
+/* aspetto dei link (a, link, visited, focus, hover, active) */
+
 cite > a {
   color: black;
   text-decoration: none;
+}
+
+cite > a:link{
+  color: black;
 }
 
 cite > a:visited {
   color: grey;
 }
 
+cite > a:focus {
+  outline: 1px solid grey;
+  color: black;
+}
+
 cite > a:hover {
+  color: black;
   border-bottom: 2px solid black;
+}
+
+cite > a:active {
+  color: white;
+  background-color: black;
+  outline: none;
 }
 
 @media screen and (max-width: 500px), (orientation: portrait) {

@@ -11,7 +11,7 @@ body {
   color: white;
 }
 
-.logo a {
+.logo > a {
   text-decoration: none;
   color: white;
   outline: none;
