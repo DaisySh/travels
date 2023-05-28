@@ -3,6 +3,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    color: white;
 }
 
 /* Il logo */
@@ -43,10 +45,6 @@ body {
 }
 
 /* testo */
-main {
-    color: white;
-}
-
 
 h2 {
   font-family: "wonder", serif;
@@ -97,9 +95,4 @@ h2 {
 
 .base-text {
   font-family: "champagne", sans-serif;
-}
-
-/* il footer */
-footer {
-    color: white;
 }
