@@ -9,7 +9,8 @@
   font-family: "wonder", serif;
 }
 
-.logo a {
+/* a è figlio diretto di .logo */
+.logo > a {
   text-decoration: none;
   color: black;
   outline: none;
@@ -37,6 +38,7 @@ h3, h5, h6 {
   width: 3rem;
 }
 
+/* h5 segue img */
 img + h5 {
   margin-top: 10px;
 }
@@ -54,6 +56,8 @@ img + h5 {
 .card-title > a:link {
   color: black;
 }
+
+/* a è figlio diretto di .card-title */
 
 .card-title > a{
   color: black;
