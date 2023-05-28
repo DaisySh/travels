@@ -1,12 +1,18 @@
 .hero-div {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)),
-                    image-set( url("../imgs/small/la_graziosa.jpg") 1x,
-                      url("../imgs/la_graziosa.jpg") 2x);
+                    rgba(0, 0, 0, 0.5)), url("../imgs/la_graziosa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
+@media screen and (max-width: 800px), (orientation: portrait) {
+  .hero-div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)), url("../imgs/small/la_graziosa.jpg");
+  }
+}
+
 
 .logo {
   font-family: "wonder", serif;
